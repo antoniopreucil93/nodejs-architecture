@@ -1,0 +1,11 @@
+apps:
+  - script: /home/antonio/projects/node-projects/research-and-development/blog-api/dist/server.js
+    name: "Blog Api"
+    env:
+      NODE_ENV: development
+      DB_USERNAME: root
+      DB_PASSWORD: 123456
+      DB_NAME: blog_development
+      DB_HOST: 0.0.0.0
+      DB_PORT: 5432
+      PORT: 3000
