@@ -1,9 +1,9 @@
 import express, { Application } from 'express';
 import { createConnection } from 'typeorm';
 import { Post } from './database/entities/posts.entity';
-import routes from './routers';
+import routes from './rest/routers';
 import { graphqlHTTP } from 'express-graphql';
-import { graphqlConfig } from './resolvers';
+import { graphqlConfig } from './graphql/resolvers';
 
 const app: Application = express();
 

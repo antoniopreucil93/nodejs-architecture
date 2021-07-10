@@ -1,6 +1,4 @@
 import { ConnectionOptions } from 'typeorm';
-import { PostComment } from './database/entities/posts-comments.entity';
-import { Post } from './database/entities/posts.entity';
 
 export const postgresConfig: ConnectionOptions = {
 	type: 'postgres',

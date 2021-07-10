@@ -1,6 +1,6 @@
 import { GraphQLList, GraphQLObjectType, GraphQLSchema } from 'graphql';
 import { PostCommentSchema } from '../schemas';
-import { PostCommentService } from '../services/post-comments.service';
+import { PostCommentService } from '../../services/post-comments.service';
 
 const postCommentService = new PostCommentService();
 

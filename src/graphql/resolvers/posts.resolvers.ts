@@ -6,7 +6,7 @@ import {
 	GraphQLString,
 } from 'graphql';
 import { PostSchema, InputPostSchema } from '../schemas';
-import { PostService } from '../services';
+import { PostService } from '../../services';
 
 const postService = new PostService();
 
